@@ -1,0 +1,666 @@
+<html>
+<body>
+<pre>
+<h1>礦ision Build Log</h1>
+<h2>Project:</h2>
+D:\开发资料\STM32\stm 32 整理程序\无刷霍尔 源程序\BLDC 2012.7.22 新版\无刷 霍尔 pid 例程\pwm.uvproj
+Project File Date:  02/25/2012
+
+<h2>Output:</h2>
+Build target 'pwm'
+assembling cortexm3_macro.s...
+assembling stm32f10x_vector.s...
+compiling main.c...
+SOURCE\main.c(100): warning:  #223-D: function "CAN_Config" declared implicitly
+SOURCE\main.c:          CAN_Config();
+SOURCE\main.c:          ^
+SOURCE\main.c(164): warning:  #186-D: pointless comparison of unsigned integer with zero
+SOURCE\main.c:                  if(My_PWM<0)
+SOURCE\main.c:                           ^
+SOURCE\main.c(94): warning:  #177-D: variable "j" was declared but never referenced
+SOURCE\main.c:          int i,j,k;
+SOURCE\main.c:                ^
+SOURCE\main.c(94): warning:  #177-D: variable "k" was declared but never referenced
+SOURCE\main.c:          int i,j,k;
+SOURCE\main.c:                  ^
+SOURCE\main.c: SOURCE\main.c: 4 warnings, 0 errors
+compiling ADC.c...
+compiling TIM3.c...
+compiling can.c...
+compiling stm32f10x_adc.c...
+compiling stm32f10x_bkp.c...
+compiling stm32f10x_can.c...
+compiling stm32f10x_crc.c...
+compiling stm32f10x_dac.c...
+compiling stm32f10x_dbgmcu.c...
+compiling stm32f10x_dma.c...
+compiling stm32f10x_exti.c...
+compiling stm32f10x_flash.c...
+compiling stm32f10x_fsmc.c...
+compiling stm32f10x_gpio.c...
+compiling stm32f10x_i2c.c...
+compiling stm32f10x_it.c...
+LIB\stm32f10x_it.c(175): warning:  #188-D: enumerated type mixed with another type
+LIB\stm32f10x_it.c:     GPIO_WriteBit(GPIOE, GPIO_Pin_4, (!GPIO_ReadOutputDataBit(GPIOE, GPIO_Pin_4))<<4);
+LIB\stm32f10x_it.c:                                      ^
+LIB\stm32f10x_it.c(169): warning:  #177-D: variable "i" was declared but never referenced
+LIB\stm32f10x_it.c:     int i;
+LIB\stm32f10x_it.c:         ^
+LIB\stm32f10x_it.c(254): warning:  #177-D: variable "i" was declared but never referenced
+LIB\stm32f10x_it.c:     u32 i,j;
+LIB\stm32f10x_it.c:         ^
+LIB\stm32f10x_it.c(254): warning:  #177-D: variable "j" was declared but never referenced
+LIB\stm32f10x_it.c:     u32 i,j;
+LIB\stm32f10x_it.c:           ^
+LIB\stm32f10x_it.c(459): warning:  #188-D: enumerated type mixed with another type
+LIB\stm32f10x_it.c:     GPIO_WriteBit(GPIOE, GPIO_Pin_5, (!GPIO_ReadOutputDataBit(GPIOE, GPIO_Pin_5))<<5);
+LIB\stm32f10x_it.c:                                      ^
+LIB\stm32f10x_it.c: LIB\stm32f10x_it.c: 5 warnings, 0 errors
+compiling stm32f10x_iwdg.c...
+compiling stm32f10x_lib.c...
+compiling stm32f10x_nvic.c...
+compiling stm32f10x_pwr.c...
+compiling stm32f10x_rcc.c...
+compiling stm32f10x_rtc.c...
+compiling stm32f10x_sdio.c...
+compiling stm32f10x_spi.c...
+compiling stm32f10x_systick.c...
+compiling stm32f10x_tim.c...
+compiling stm32f10x_usart.c...
+compiling stm32f10x_wwdg.c...
+linking...
+Program Size: Code=16058 RO-data=398 RW-data=308 ZI-data=4204  
+"pwm.axf" - 0 Error(s), 9 Warning(s).
+Load "D:\\开发资料\\STM32\\stm 32 整理程序\\无刷霍尔 源程序\\BLDC 2012.7.22 新版\\无刷 霍尔 pid 例程\\pwm.AXF" 
+USB Communication Failure
+Build target 'pwm'
+linking...
+Program Size: Code=16058 RO-data=398 RW-data=308 ZI-data=4204  
+"pwm.axf" - 0 Error(s), 0 Warning(s).
+Build target 'pwm'
+compiling main.c...
+SOURCE\main.c(100): warning:  #223-D: function "CAN_Config" declared implicitly
+SOURCE\main.c:          CAN_Config();
+SOURCE\main.c:          ^
+SOURCE\main.c(164): warning:  #186-D: pointless comparison of unsigned integer with zero
+SOURCE\main.c:                  if(My_PWM<0)
+SOURCE\main.c:                           ^
+SOURCE\main.c(94): warning:  #177-D: variable "j" was declared but never referenced
+SOURCE\main.c:          int i,j,k;
+SOURCE\main.c:                ^
+SOURCE\main.c(94): warning:  #177-D: variable "k" was declared but never referenced
+SOURCE\main.c:          int i,j,k;
+SOURCE\main.c:                  ^
+SOURCE\main.c: SOURCE\main.c: 4 warnings, 0 errors
+compiling TIM2.c...
+compiling stm32f10x_it.c...
+LIB\stm32f10x_it.c(175): warning:  #188-D: enumerated type mixed with another type
+LIB\stm32f10x_it.c:     GPIO_WriteBit(GPIOE, GPIO_Pin_4, (!GPIO_ReadOutputDataBit(GPIOE, GPIO_Pin_4))<<4);
+LIB\stm32f10x_it.c:                                      ^
+LIB\stm32f10x_it.c(169): warning:  #177-D: variable "i" was declared but never referenced
+LIB\stm32f10x_it.c:     int i;
+LIB\stm32f10x_it.c:         ^
+LIB\stm32f10x_it.c(254): warning:  #177-D: variable "i" was declared but never referenced
+LIB\stm32f10x_it.c:     u32 i,j;
+LIB\stm32f10x_it.c:         ^
+LIB\stm32f10x_it.c(254): warning:  #177-D: variable "j" was declared but never referenced
+LIB\stm32f10x_it.c:     u32 i,j;
+LIB\stm32f10x_it.c:           ^
+LIB\stm32f10x_it.c(459): warning:  #188-D: enumerated type mixed with another type
+LIB\stm32f10x_it.c:     GPIO_WriteBit(GPIOE, GPIO_Pin_5, (!GPIO_ReadOutputDataBit(GPIOE, GPIO_Pin_5))<<5);
+LIB\stm32f10x_it.c:                                      ^
+LIB\stm32f10x_it.c(754): error:  #20: identifier "Timer1" is undefined
+LIB\stm32f10x_it.c:           if(Timer1) Timer1--;
+LIB\stm32f10x_it.c:              ^
+LIB\stm32f10x_it.c(755): error:  #20: identifier "Timer2" is undefined
+LIB\stm32f10x_it.c:           if(Timer2) Timer2--;
+LIB\stm32f10x_it.c:              ^
+LIB\stm32f10x_it.c: LIB\stm32f10x_it.c: 5 warnings, 2 errors
+Target not created
+Build target 'pwm'
+compiling stm32f10x_it.c...
+LIB\stm32f10x_it.c(175): warning:  #188-D: enumerated type mixed with another type
+LIB\stm32f10x_it.c:     GPIO_WriteBit(GPIOE, GPIO_Pin_4, (!GPIO_ReadOutputDataBit(GPIOE, GPIO_Pin_4))<<4);
+LIB\stm32f10x_it.c:                                      ^
+LIB\stm32f10x_it.c(169): warning:  #177-D: variable "i" was declared but never referenced
+LIB\stm32f10x_it.c:     int i;
+LIB\stm32f10x_it.c:         ^
+LIB\stm32f10x_it.c(254): warning:  #177-D: variable "i" was declared but never referenced
+LIB\stm32f10x_it.c:     u32 i,j;
+LIB\stm32f10x_it.c:         ^
+LIB\stm32f10x_it.c(254): warning:  #177-D: variable "j" was declared but never referenced
+LIB\stm32f10x_it.c:     u32 i,j;
+LIB\stm32f10x_it.c:           ^
+LIB\stm32f10x_it.c(459): warning:  #188-D: enumerated type mixed with another type
+LIB\stm32f10x_it.c:     GPIO_WriteBit(GPIOE, GPIO_Pin_5, (!GPIO_ReadOutputDataBit(GPIOE, GPIO_Pin_5))<<5);
+LIB\stm32f10x_it.c:                                      ^
+LIB\stm32f10x_it.c: LIB\stm32f10x_it.c: 5 warnings, 0 errors
+linking...
+Program Size: Code=16002 RO-data=398 RW-data=308 ZI-data=4204  
+"pwm.axf" - 0 Error(s), 5 Warning(s).
+Build target 'pwm'
+compiling main.c...
+SOURCE\main.c(100): warning:  #223-D: function "CAN_Config" declared implicitly
+SOURCE\main.c:          CAN_Config();
+SOURCE\main.c:          ^
+SOURCE\main.c(164): warning:  #186-D: pointless comparison of unsigned integer with zero
+SOURCE\main.c:                  if(My_PWM<0)
+SOURCE\main.c:                           ^
+SOURCE\main.c(94): warning:  #177-D: variable "j" was declared but never referenced
+SOURCE\main.c:          int i,j,k;
+SOURCE\main.c:                ^
+SOURCE\main.c(94): warning:  #177-D: variable "k" was declared but never referenced
+SOURCE\main.c:          int i,j,k;
+SOURCE\main.c:                  ^
+SOURCE\main.c: SOURCE\main.c: 4 warnings, 0 errors
+linking...
+Program Size: Code=15806 RO-data=398 RW-data=308 ZI-data=4204  
+"pwm.axf" - 0 Error(s), 4 Warning(s).
+Build target 'pwm'
+compiling ADC.c...
+linking...
+Program Size: Code=15770 RO-data=398 RW-data=308 ZI-data=4204  
+"pwm.axf" - 0 Error(s), 0 Warning(s).
+Build target 'pwm'
+compiling main.c...
+SOURCE\main.c(100): warning:  #223-D: function "CAN_Config" declared implicitly
+SOURCE\main.c:          CAN_Config();
+SOURCE\main.c:          ^
+SOURCE\main.c(164): warning:  #186-D: pointless comparison of unsigned integer with zero
+SOURCE\main.c:                  if(My_PWM<0)
+SOURCE\main.c:                           ^
+SOURCE\main.c(94): warning:  #177-D: variable "j" was declared but never referenced
+SOURCE\main.c:          int i,j,k;
+SOURCE\main.c:                ^
+SOURCE\main.c(94): warning:  #177-D: variable "k" was declared but never referenced
+SOURCE\main.c:          int i,j,k;
+SOURCE\main.c:                  ^
+SOURCE\main.c: SOURCE\main.c: 4 warnings, 0 errors
+linking...
+Program Size: Code=15794 RO-data=398 RW-data=308 ZI-data=4204  
+"pwm.axf" - 0 Error(s), 4 Warning(s).
+Build target 'pwm'
+compiling main.c...
+SOURCE\main.c(100): warning:  #223-D: function "CAN_Config" declared implicitly
+SOURCE\main.c:          CAN_Config();
+SOURCE\main.c:          ^
+SOURCE\main.c(164): warning:  #186-D: pointless comparison of unsigned integer with zero
+SOURCE\main.c:                  if(My_PWM<0)
+SOURCE\main.c:                           ^
+SOURCE\main.c(94): warning:  #177-D: variable "j" was declared but never referenced
+SOURCE\main.c:          int i,j,k;
+SOURCE\main.c:                ^
+SOURCE\main.c(94): warning:  #177-D: variable "k" was declared but never referenced
+SOURCE\main.c:          int i,j,k;
+SOURCE\main.c:                  ^
+SOURCE\main.c: SOURCE\main.c: 4 warnings, 0 errors
+linking...
+Program Size: Code=15826 RO-data=398 RW-data=308 ZI-data=4204  
+"pwm.axf" - 0 Error(s), 4 Warning(s).
+Build target 'pwm'
+compiling main.c...
+SOURCE\main.c(101): warning:  #223-D: function "CAN_Config" declared implicitly
+SOURCE\main.c:          CAN_Config();
+SOURCE\main.c:          ^
+SOURCE\main.c(167): warning:  #186-D: pointless comparison of unsigned integer with zero
+SOURCE\main.c:                  if(My_PWM<0)
+SOURCE\main.c:                           ^
+SOURCE\main.c(95): warning:  #177-D: variable "j" was declared but never referenced
+SOURCE\main.c:          int i,j,k;
+SOURCE\main.c:                ^
+SOURCE\main.c(95): warning:  #177-D: variable "k" was declared but never referenced
+SOURCE\main.c:          int i,j,k;
+SOURCE\main.c:                  ^
+SOURCE\main.c: SOURCE\main.c: 4 warnings, 0 errors
+compiling stm32f10x_it.c...
+LIB\stm32f10x_it.c(175): warning:  #188-D: enumerated type mixed with another type
+LIB\stm32f10x_it.c:     GPIO_WriteBit(GPIOE, GPIO_Pin_4, (!GPIO_ReadOutputDataBit(GPIOE, GPIO_Pin_4))<<4);
+LIB\stm32f10x_it.c:                                      ^
+LIB\stm32f10x_it.c(169): warning:  #177-D: variable "i" was declared but never referenced
+LIB\stm32f10x_it.c:     int i;
+LIB\stm32f10x_it.c:         ^
+LIB\stm32f10x_it.c(254): warning:  #177-D: variable "i" was declared but never referenced
+LIB\stm32f10x_it.c:     u32 i,j;
+LIB\stm32f10x_it.c:         ^
+LIB\stm32f10x_it.c(254): warning:  #177-D: variable "j" was declared but never referenced
+LIB\stm32f10x_it.c:     u32 i,j;
+LIB\stm32f10x_it.c:           ^
+LIB\stm32f10x_it.c(459): warning:  #188-D: enumerated type mixed with another type
+LIB\stm32f10x_it.c:     GPIO_WriteBit(GPIOE, GPIO_Pin_5, (!GPIO_ReadOutputDataBit(GPIOE, GPIO_Pin_5))<<5);
+LIB\stm32f10x_it.c:                                      ^
+LIB\stm32f10x_it.c: LIB\stm32f10x_it.c: 5 warnings, 0 errors
+linking...
+Program Size: Code=15842 RO-data=398 RW-data=312 ZI-data=4200  
+"pwm.axf" - 0 Error(s), 9 Warning(s).
+Build target 'pwm'
+compiling main.c...
+SOURCE\main.c(101): warning:  #223-D: function "CAN_Config" declared implicitly
+SOURCE\main.c:          CAN_Config();
+SOURCE\main.c:          ^
+SOURCE\main.c(168): warning:  #186-D: pointless comparison of unsigned integer with zero
+SOURCE\main.c:                  if(My_PWM<0)
+SOURCE\main.c:                           ^
+SOURCE\main.c(95): warning:  #177-D: variable "j" was declared but never referenced
+SOURCE\main.c:          int i,j,k;
+SOURCE\main.c:                ^
+SOURCE\main.c(95): warning:  #177-D: variable "k" was declared but never referenced
+SOURCE\main.c:          int i,j,k;
+SOURCE\main.c:                  ^
+SOURCE\main.c: SOURCE\main.c: 4 warnings, 0 errors
+linking...
+Program Size: Code=15858 RO-data=398 RW-data=312 ZI-data=4200  
+"pwm.axf" - 0 Error(s), 4 Warning(s).
+Build target 'pwm'
+compiling main.c...
+SOURCE\main.c(101): warning:  #223-D: function "CAN_Config" declared implicitly
+SOURCE\main.c:          CAN_Config();
+SOURCE\main.c:          ^
+SOURCE\main.c(169): warning:  #186-D: pointless comparison of unsigned integer with zero
+SOURCE\main.c:                  if(My_PWM<0)
+SOURCE\main.c:                           ^
+SOURCE\main.c(95): warning:  #177-D: variable "j" was declared but never referenced
+SOURCE\main.c:          int i,j,k;
+SOURCE\main.c:                ^
+SOURCE\main.c(95): warning:  #177-D: variable "k" was declared but never referenced
+SOURCE\main.c:          int i,j,k;
+SOURCE\main.c:                  ^
+SOURCE\main.c: SOURCE\main.c: 4 warnings, 0 errors
+linking...
+Program Size: Code=15870 RO-data=398 RW-data=312 ZI-data=4200  
+"pwm.axf" - 0 Error(s), 4 Warning(s).
+Build target 'pwm'
+compiling main.c...
+SOURCE\main.c(101): warning:  #223-D: function "CAN_Config" declared implicitly
+SOURCE\main.c:          CAN_Config();
+SOURCE\main.c:          ^
+SOURCE\main.c(169): warning:  #186-D: pointless comparison of unsigned integer with zero
+SOURCE\main.c:                  if(My_PWM<0)
+SOURCE\main.c:                           ^
+SOURCE\main.c(95): warning:  #177-D: variable "j" was declared but never referenced
+SOURCE\main.c:          int i,j,k;
+SOURCE\main.c:                ^
+SOURCE\main.c(95): warning:  #177-D: variable "k" was declared but never referenced
+SOURCE\main.c:          int i,j,k;
+SOURCE\main.c:                  ^
+SOURCE\main.c: SOURCE\main.c: 4 warnings, 0 errors
+linking...
+Program Size: Code=15870 RO-data=398 RW-data=312 ZI-data=4200  
+"pwm.axf" - 0 Error(s), 4 Warning(s).
+Build target 'pwm'
+compiling main.c...
+SOURCE\main.c(101): warning:  #223-D: function "CAN_Config" declared implicitly
+SOURCE\main.c:          CAN_Config();
+SOURCE\main.c:          ^
+SOURCE\main.c(169): warning:  #186-D: pointless comparison of unsigned integer with zero
+SOURCE\main.c:                  if(My_PWM<0)
+SOURCE\main.c:                           ^
+SOURCE\main.c(95): warning:  #177-D: variable "j" was declared but never referenced
+SOURCE\main.c:          int i,j,k;
+SOURCE\main.c:                ^
+SOURCE\main.c(95): warning:  #177-D: variable "k" was declared but never referenced
+SOURCE\main.c:          int i,j,k;
+SOURCE\main.c:                  ^
+SOURCE\main.c: SOURCE\main.c: 4 warnings, 0 errors
+linking...
+Program Size: Code=15870 RO-data=398 RW-data=312 ZI-data=4200  
+"pwm.axf" - 0 Error(s), 4 Warning(s).
+Build target 'pwm'
+linking...
+Program Size: Code=15870 RO-data=398 RW-data=312 ZI-data=4200  
+"pwm.axf" - 0 Error(s), 0 Warning(s).
+Build target 'pwm'
+compiling main.c...
+SOURCE\main.c(101): warning:  #223-D: function "CAN_Config" declared implicitly
+SOURCE\main.c:          CAN_Config();
+SOURCE\main.c:          ^
+SOURCE\main.c(169): warning:  #186-D: pointless comparison of unsigned integer with zero
+SOURCE\main.c:                  if(My_PWM<0)
+SOURCE\main.c:                           ^
+SOURCE\main.c(95): warning:  #177-D: variable "j" was declared but never referenced
+SOURCE\main.c:          int i,j,k;
+SOURCE\main.c:                ^
+SOURCE\main.c(95): warning:  #177-D: variable "k" was declared but never referenced
+SOURCE\main.c:          int i,j,k;
+SOURCE\main.c:                  ^
+SOURCE\main.c: SOURCE\main.c: 4 warnings, 0 errors
+linking...
+Program Size: Code=15870 RO-data=398 RW-data=312 ZI-data=4200  
+"pwm.axf" - 0 Error(s), 4 Warning(s).
+Build target 'pwm'
+compiling main.c...
+SOURCE\main.c(102): warning:  #223-D: function "CAN_Config" declared implicitly
+SOURCE\main.c:          CAN_Config();
+SOURCE\main.c:          ^
+SOURCE\main.c(170): warning:  #186-D: pointless comparison of unsigned integer with zero
+SOURCE\main.c:                  if(My_PWM<0)
+SOURCE\main.c:                           ^
+SOURCE\main.c(96): warning:  #177-D: variable "j" was declared but never referenced
+SOURCE\main.c:          int i,j,k;
+SOURCE\main.c:                ^
+SOURCE\main.c(96): warning:  #177-D: variable "k" was declared but never referenced
+SOURCE\main.c:          int i,j,k;
+SOURCE\main.c:                  ^
+SOURCE\main.c: SOURCE\main.c: 4 warnings, 0 errors
+linking...
+Program Size: Code=15874 RO-data=398 RW-data=312 ZI-data=4216  
+"pwm.axf" - 0 Error(s), 4 Warning(s).
+Build target 'pwm'
+compiling main.c...
+SOURCE\main.c(102): warning:  #223-D: function "CAN_Config" declared implicitly
+SOURCE\main.c:          CAN_Config();
+SOURCE\main.c:          ^
+SOURCE\main.c(170): warning:  #186-D: pointless comparison of unsigned integer with zero
+SOURCE\main.c:                  if(My_PWM<0)
+SOURCE\main.c:                           ^
+SOURCE\main.c(96): warning:  #177-D: variable "j" was declared but never referenced
+SOURCE\main.c:          int i,j,k;
+SOURCE\main.c:                ^
+SOURCE\main.c(96): warning:  #177-D: variable "k" was declared but never referenced
+SOURCE\main.c:          int i,j,k;
+SOURCE\main.c:                  ^
+SOURCE\main.c: SOURCE\main.c: 4 warnings, 0 errors
+linking...
+Program Size: Code=15874 RO-data=398 RW-data=328 ZI-data=4200  
+"pwm.axf" - 0 Error(s), 4 Warning(s).
+Build target 'pwm'
+compiling main.c...
+SOURCE\main.c(101): warning:  #223-D: function "CAN_Config" declared implicitly
+SOURCE\main.c:          CAN_Config();
+SOURCE\main.c:          ^
+SOURCE\main.c(167): warning:  #186-D: pointless comparison of unsigned integer with zero
+SOURCE\main.c:                  if(My_PWM<0)
+SOURCE\main.c:                           ^
+SOURCE\main.c(95): warning:  #177-D: variable "j" was declared but never referenced
+SOURCE\main.c:          int i,j,k;
+SOURCE\main.c:                ^
+SOURCE\main.c(95): warning:  #177-D: variable "k" was declared but never referenced
+SOURCE\main.c:          int i,j,k;
+SOURCE\main.c:                  ^
+SOURCE\main.c: SOURCE\main.c: 4 warnings, 0 errors
+compiling stm32f10x_it.c...
+LIB\stm32f10x_it.c(176): warning:  #188-D: enumerated type mixed with another type
+LIB\stm32f10x_it.c:     GPIO_WriteBit(GPIOE, GPIO_Pin_4, (!GPIO_ReadOutputDataBit(GPIOE, GPIO_Pin_4))<<4);
+LIB\stm32f10x_it.c:                                      ^
+LIB\stm32f10x_it.c(170): warning:  #177-D: variable "i" was declared but never referenced
+LIB\stm32f10x_it.c:     int i;
+LIB\stm32f10x_it.c:         ^
+LIB\stm32f10x_it.c(255): warning:  #177-D: variable "i" was declared but never referenced
+LIB\stm32f10x_it.c:     u32 i,j;
+LIB\stm32f10x_it.c:         ^
+LIB\stm32f10x_it.c(255): warning:  #177-D: variable "j" was declared but never referenced
+LIB\stm32f10x_it.c:     u32 i,j;
+LIB\stm32f10x_it.c:           ^
+LIB\stm32f10x_it.c(460): warning:  #188-D: enumerated type mixed with another type
+LIB\stm32f10x_it.c:     GPIO_WriteBit(GPIOE, GPIO_Pin_5, (!GPIO_ReadOutputDataBit(GPIOE, GPIO_Pin_5))<<5);
+LIB\stm32f10x_it.c:                                      ^
+LIB\stm32f10x_it.c: LIB\stm32f10x_it.c: 5 warnings, 0 errors
+linking...
+Program Size: Code=15892 RO-data=396 RW-data=336 ZI-data=4200  
+"pwm.axf" - 0 Error(s), 9 Warning(s).
+Build target 'pwm'
+compiling main.c...
+SOURCE\main.c(102): warning:  #223-D: function "CAN_Config" declared implicitly
+SOURCE\main.c:          CAN_Config();
+SOURCE\main.c:          ^
+SOURCE\main.c(169): warning:  #186-D: pointless comparison of unsigned integer with zero
+SOURCE\main.c:                  if(My_PWM<0)
+SOURCE\main.c:                           ^
+SOURCE\main.c(96): warning:  #177-D: variable "j" was declared but never referenced
+SOURCE\main.c:          int i,j,k;
+SOURCE\main.c:                ^
+SOURCE\main.c(96): warning:  #177-D: variable "k" was declared but never referenced
+SOURCE\main.c:          int i,j,k;
+SOURCE\main.c:                  ^
+SOURCE\main.c: SOURCE\main.c: 4 warnings, 0 errors
+linking...
+Program Size: Code=16010 RO-data=398 RW-data=336 ZI-data=4200  
+"pwm.axf" - 0 Error(s), 4 Warning(s).
+Build target 'pwm'
+compiling main.c...
+SOURCE\main.c(102): warning:  #223-D: function "CAN_Config" declared implicitly
+SOURCE\main.c:          CAN_Config();
+SOURCE\main.c:          ^
+SOURCE\main.c(169): warning:  #186-D: pointless comparison of unsigned integer with zero
+SOURCE\main.c:                  if(My_PWM<0)
+SOURCE\main.c:                           ^
+SOURCE\main.c(96): warning:  #177-D: variable "j" was declared but never referenced
+SOURCE\main.c:          int i,j,k;
+SOURCE\main.c:                ^
+SOURCE\main.c(96): warning:  #177-D: variable "k" was declared but never referenced
+SOURCE\main.c:          int i,j,k;
+SOURCE\main.c:                  ^
+SOURCE\main.c: SOURCE\main.c: 4 warnings, 0 errors
+linking...
+Program Size: Code=16038 RO-data=398 RW-data=336 ZI-data=4200  
+"pwm.axf" - 0 Error(s), 4 Warning(s).
+Build target 'pwm'
+compiling main.c...
+SOURCE\main.c(103): warning:  #223-D: function "CAN_Config" declared implicitly
+SOURCE\main.c:          CAN_Config();
+SOURCE\main.c:          ^
+SOURCE\main.c(170): warning:  #186-D: pointless comparison of unsigned integer with zero
+SOURCE\main.c:                  if(My_PWM<0)
+SOURCE\main.c:                           ^
+SOURCE\main.c(97): warning:  #177-D: variable "j" was declared but never referenced
+SOURCE\main.c:          int i,j,k;
+SOURCE\main.c:                ^
+SOURCE\main.c(97): warning:  #177-D: variable "k" was declared but never referenced
+SOURCE\main.c:          int i,j,k;
+SOURCE\main.c:                  ^
+SOURCE\main.c: SOURCE\main.c: 4 warnings, 0 errors
+compiling stm32f10x_it.c...
+LIB\stm32f10x_it.c(177): warning:  #188-D: enumerated type mixed with another type
+LIB\stm32f10x_it.c:     GPIO_WriteBit(GPIOE, GPIO_Pin_4, (!GPIO_ReadOutputDataBit(GPIOE, GPIO_Pin_4))<<4);
+LIB\stm32f10x_it.c:                                      ^
+LIB\stm32f10x_it.c(171): warning:  #177-D: variable "i" was declared but never referenced
+LIB\stm32f10x_it.c:     int i;
+LIB\stm32f10x_it.c:         ^
+LIB\stm32f10x_it.c(256): warning:  #177-D: variable "i" was declared but never referenced
+LIB\stm32f10x_it.c:     u32 i,j;
+LIB\stm32f10x_it.c:         ^
+LIB\stm32f10x_it.c(256): warning:  #177-D: variable "j" was declared but never referenced
+LIB\stm32f10x_it.c:     u32 i,j;
+LIB\stm32f10x_it.c:           ^
+LIB\stm32f10x_it.c(461): warning:  #188-D: enumerated type mixed with another type
+LIB\stm32f10x_it.c:     GPIO_WriteBit(GPIOE, GPIO_Pin_5, (!GPIO_ReadOutputDataBit(GPIOE, GPIO_Pin_5))<<5);
+LIB\stm32f10x_it.c:                                      ^
+LIB\stm32f10x_it.c(795): error:  #20: identifier "temp_t" is undefined
+LIB\stm32f10x_it.c:             temp_t++;
+LIB\stm32f10x_it.c:             ^
+LIB\stm32f10x_it.c(798): error:  #20: identifier "hint" is undefined
+LIB\stm32f10x_it.c:                     hint++;
+LIB\stm32f10x_it.c:                     ^
+LIB\stm32f10x_it.c: LIB\stm32f10x_it.c: 5 warnings, 2 errors
+Target not created
+Build target 'pwm'
+compiling main.c...
+SOURCE\main.c(103): warning:  #223-D: function "CAN_Config" declared implicitly
+SOURCE\main.c:          CAN_Config();
+SOURCE\main.c:          ^
+SOURCE\main.c(169): warning:  #186-D: pointless comparison of unsigned integer with zero
+SOURCE\main.c:                  if(My_PWM<0)
+SOURCE\main.c:                           ^
+SOURCE\main.c(97): warning:  #177-D: variable "j" was declared but never referenced
+SOURCE\main.c:          int i,j,k;
+SOURCE\main.c:                ^
+SOURCE\main.c(97): warning:  #177-D: variable "k" was declared but never referenced
+SOURCE\main.c:          int i,j,k;
+SOURCE\main.c:                  ^
+SOURCE\main.c: SOURCE\main.c: 4 warnings, 0 errors
+compiling stm32f10x_it.c...
+LIB\stm32f10x_it.c(177): warning:  #188-D: enumerated type mixed with another type
+LIB\stm32f10x_it.c:     GPIO_WriteBit(GPIOE, GPIO_Pin_4, (!GPIO_ReadOutputDataBit(GPIOE, GPIO_Pin_4))<<4);
+LIB\stm32f10x_it.c:                                      ^
+LIB\stm32f10x_it.c(171): warning:  #177-D: variable "i" was declared but never referenced
+LIB\stm32f10x_it.c:     int i;
+LIB\stm32f10x_it.c:         ^
+LIB\stm32f10x_it.c(256): warning:  #177-D: variable "i" was declared but never referenced
+LIB\stm32f10x_it.c:     u32 i,j;
+LIB\stm32f10x_it.c:         ^
+LIB\stm32f10x_it.c(256): warning:  #177-D: variable "j" was declared but never referenced
+LIB\stm32f10x_it.c:     u32 i,j;
+LIB\stm32f10x_it.c:           ^
+LIB\stm32f10x_it.c(461): warning:  #188-D: enumerated type mixed with another type
+LIB\stm32f10x_it.c:     GPIO_WriteBit(GPIOE, GPIO_Pin_5, (!GPIO_ReadOutputDataBit(GPIOE, GPIO_Pin_5))<<5);
+LIB\stm32f10x_it.c:                                      ^
+LIB\stm32f10x_it.c(795): error:  #20: identifier "temp_t" is undefined
+LIB\stm32f10x_it.c:             temp_t++;
+LIB\stm32f10x_it.c:             ^
+LIB\stm32f10x_it.c(798): error:  #20: identifier "hint" is undefined
+LIB\stm32f10x_it.c:                     hint++;
+LIB\stm32f10x_it.c:                     ^
+LIB\stm32f10x_it.c: LIB\stm32f10x_it.c: 5 warnings, 2 errors
+Target not created
+Build target 'pwm'
+compiling stm32f10x_it.c...
+LIB\stm32f10x_it.c(177): warning:  #188-D: enumerated type mixed with another type
+LIB\stm32f10x_it.c:     GPIO_WriteBit(GPIOE, GPIO_Pin_4, (!GPIO_ReadOutputDataBit(GPIOE, GPIO_Pin_4))<<4);
+LIB\stm32f10x_it.c:                                      ^
+LIB\stm32f10x_it.c(171): warning:  #177-D: variable "i" was declared but never referenced
+LIB\stm32f10x_it.c:     int i;
+LIB\stm32f10x_it.c:         ^
+LIB\stm32f10x_it.c(256): warning:  #177-D: variable "i" was declared but never referenced
+LIB\stm32f10x_it.c:     u32 i,j;
+LIB\stm32f10x_it.c:         ^
+LIB\stm32f10x_it.c(256): warning:  #177-D: variable "j" was declared but never referenced
+LIB\stm32f10x_it.c:     u32 i,j;
+LIB\stm32f10x_it.c:           ^
+LIB\stm32f10x_it.c(461): warning:  #188-D: enumerated type mixed with another type
+LIB\stm32f10x_it.c:     GPIO_WriteBit(GPIOE, GPIO_Pin_5, (!GPIO_ReadOutputDataBit(GPIOE, GPIO_Pin_5))<<5);
+LIB\stm32f10x_it.c:                                      ^
+LIB\stm32f10x_it.c: LIB\stm32f10x_it.c: 5 warnings, 0 errors
+linking...
+Program Size: Code=16378 RO-data=398 RW-data=340 ZI-data=4204  
+"pwm.axf" - 0 Error(s), 5 Warning(s).
+Build target 'pwm'
+compiling TIM2.c...
+compiling stm32f10x_it.c...
+LIB\stm32f10x_it.c(177): warning:  #188-D: enumerated type mixed with another type
+LIB\stm32f10x_it.c:     GPIO_WriteBit(GPIOE, GPIO_Pin_4, (!GPIO_ReadOutputDataBit(GPIOE, GPIO_Pin_4))<<4);
+LIB\stm32f10x_it.c:                                      ^
+LIB\stm32f10x_it.c(171): warning:  #177-D: variable "i" was declared but never referenced
+LIB\stm32f10x_it.c:     int i;
+LIB\stm32f10x_it.c:         ^
+LIB\stm32f10x_it.c(256): warning:  #177-D: variable "i" was declared but never referenced
+LIB\stm32f10x_it.c:     u32 i,j;
+LIB\stm32f10x_it.c:         ^
+LIB\stm32f10x_it.c(256): warning:  #177-D: variable "j" was declared but never referenced
+LIB\stm32f10x_it.c:     u32 i,j;
+LIB\stm32f10x_it.c:           ^
+LIB\stm32f10x_it.c(461): warning:  #188-D: enumerated type mixed with another type
+LIB\stm32f10x_it.c:     GPIO_WriteBit(GPIOE, GPIO_Pin_5, (!GPIO_ReadOutputDataBit(GPIOE, GPIO_Pin_5))<<5);
+LIB\stm32f10x_it.c:                                      ^
+LIB\stm32f10x_it.c: LIB\stm32f10x_it.c: 5 warnings, 0 errors
+linking...
+Program Size: Code=16378 RO-data=398 RW-data=340 ZI-data=4204  
+"pwm.axf" - 0 Error(s), 5 Warning(s).
+Build target 'pwm'
+compiling TIM2.c...
+linking...
+Program Size: Code=16378 RO-data=398 RW-data=340 ZI-data=4204  
+"pwm.axf" - 0 Error(s), 0 Warning(s).
+Build target 'pwm'
+compiling main.c...
+SOURCE\main.c(103): warning:  #223-D: function "CAN_Config" declared implicitly
+SOURCE\main.c:          CAN_Config();
+SOURCE\main.c:          ^
+SOURCE\main.c(169): warning:  #186-D: pointless comparison of unsigned integer with zero
+SOURCE\main.c:                  if(My_PWM<0)
+SOURCE\main.c:                           ^
+SOURCE\main.c(97): warning:  #177-D: variable "j" was declared but never referenced
+SOURCE\main.c:          int i,j,k;
+SOURCE\main.c:                ^
+SOURCE\main.c(97): warning:  #177-D: variable "k" was declared but never referenced
+SOURCE\main.c:          int i,j,k;
+SOURCE\main.c:                  ^
+SOURCE\main.c: SOURCE\main.c: 4 warnings, 0 errors
+linking...
+Program Size: Code=16382 RO-data=398 RW-data=340 ZI-data=4204  
+"pwm.axf" - 0 Error(s), 4 Warning(s).
+Build target 'pwm'
+compiling main.c...
+SOURCE\main.c(103): warning:  #223-D: function "CAN_Config" declared implicitly
+SOURCE\main.c:          CAN_Config();
+SOURCE\main.c:          ^
+SOURCE\main.c(169): warning:  #186-D: pointless comparison of unsigned integer with zero
+SOURCE\main.c:                  if(My_PWM<0)
+SOURCE\main.c:                           ^
+SOURCE\main.c(97): warning:  #177-D: variable "j" was declared but never referenced
+SOURCE\main.c:          int i,j,k;
+SOURCE\main.c:                ^
+SOURCE\main.c(97): warning:  #177-D: variable "k" was declared but never referenced
+SOURCE\main.c:          int i,j,k;
+SOURCE\main.c:                  ^
+SOURCE\main.c: SOURCE\main.c: 4 warnings, 0 errors
+compiling stm32f10x_it.c...
+LIB\stm32f10x_it.c(177): warning:  #188-D: enumerated type mixed with another type
+LIB\stm32f10x_it.c:     GPIO_WriteBit(GPIOE, GPIO_Pin_4, (!GPIO_ReadOutputDataBit(GPIOE, GPIO_Pin_4))<<4);
+LIB\stm32f10x_it.c:                                      ^
+LIB\stm32f10x_it.c(171): warning:  #177-D: variable "i" was declared but never referenced
+LIB\stm32f10x_it.c:     int i;
+LIB\stm32f10x_it.c:         ^
+LIB\stm32f10x_it.c(256): warning:  #177-D: variable "i" was declared but never referenced
+LIB\stm32f10x_it.c:     u32 i,j;
+LIB\stm32f10x_it.c:         ^
+LIB\stm32f10x_it.c(256): warning:  #177-D: variable "j" was declared but never referenced
+LIB\stm32f10x_it.c:     u32 i,j;
+LIB\stm32f10x_it.c:           ^
+LIB\stm32f10x_it.c(461): warning:  #188-D: enumerated type mixed with another type
+LIB\stm32f10x_it.c:     GPIO_WriteBit(GPIOE, GPIO_Pin_5, (!GPIO_ReadOutputDataBit(GPIOE, GPIO_Pin_5))<<5);
+LIB\stm32f10x_it.c:                                      ^
+LIB\stm32f10x_it.c: LIB\stm32f10x_it.c: 5 warnings, 0 errors
+linking...
+Program Size: Code=16606 RO-data=398 RW-data=348 ZI-data=4204  
+"pwm.axf" - 0 Error(s), 9 Warning(s).
+Build target 'pwm'
+compiling main.c...
+SOURCE\main.c(104): warning:  #223-D: function "CAN_Config" declared implicitly
+SOURCE\main.c:          CAN_Config();
+SOURCE\main.c:          ^
+SOURCE\main.c(171): warning:  #186-D: pointless comparison of unsigned integer with zero
+SOURCE\main.c:                  if(My_PWM<0)
+SOURCE\main.c:                           ^
+SOURCE\main.c(98): warning:  #177-D: variable "j" was declared but never referenced
+SOURCE\main.c:          int i,j,k;
+SOURCE\main.c:                ^
+SOURCE\main.c(98): warning:  #177-D: variable "k" was declared but never referenced
+SOURCE\main.c:          int i,j,k;
+SOURCE\main.c:                  ^
+SOURCE\main.c: SOURCE\main.c: 4 warnings, 0 errors
+linking...
+pwm.axf: Error: L6218E: Undefined symbol TIM4_Configuration1 (referred from main.o).
+pwm.axf: Not enough information to list image symbols.
+pwm.axf: Finished: 1 information, 0 warning and 1 error messages.
+Target not created
+Build target 'pwm'
+linking...
+pwm.axf: Error: L6218E: Undefined symbol TIM4_Configuration1 (referred from main.o).
+pwm.axf: Not enough information to list image symbols.
+pwm.axf: Finished: 1 information, 0 warning and 1 error messages.
+Target not created
+Build target 'pwm'
+compiling TIM4.c...
+linking...
+Program Size: Code=16690 RO-data=398 RW-data=348 ZI-data=4204  
+"pwm.axf" - 0 Error(s), 0 Warning(s).
+Build target 'pwm'
+compiling stm32f10x_it.c...
+LIB\stm32f10x_it.c(177): warning:  #188-D: enumerated type mixed with another type
+LIB\stm32f10x_it.c:     GPIO_WriteBit(GPIOE, GPIO_Pin_4, (!GPIO_ReadOutputDataBit(GPIOE, GPIO_Pin_4))<<4);
+LIB\stm32f10x_it.c:                                      ^
+LIB\stm32f10x_it.c(171): warning:  #177-D: variable "i" was declared but never referenced
+LIB\stm32f10x_it.c:     int i;
+LIB\stm32f10x_it.c:         ^
+LIB\stm32f10x_it.c(256): warning:  #177-D: variable "i" was declared but never referenced
+LIB\stm32f10x_it.c:     u32 i,j;
+LIB\stm32f10x_it.c:         ^
+LIB\stm32f10x_it.c(256): warning:  #177-D: variable "j" was declared but never referenced
+LIB\stm32f10x_it.c:     u32 i,j;
+LIB\stm32f10x_it.c:           ^
+LIB\stm32f10x_it.c(461): warning:  #188-D: enumerated type mixed with another type
+LIB\stm32f10x_it.c:     GPIO_WriteBit(GPIOE, GPIO_Pin_5, (!GPIO_ReadOutputDataBit(GPIOE, GPIO_Pin_5))<<5);
+LIB\stm32f10x_it.c:                                      ^
+LIB\stm32f10x_it.c: LIB\stm32f10x_it.c: 5 warnings, 0 errors
+linking...
+Program Size: Code=16690 RO-data=398 RW-data=348 ZI-data=4204  
+"pwm.axf" - 0 Error(s), 5 Warning(s).

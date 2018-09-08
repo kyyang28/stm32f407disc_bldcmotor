@@ -1,0 +1,218 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: µVision V5.24.2.0
+Copyright (C) 2017 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: Yankun Yang, Yang, LIC=50DY8-345T3-EY5VT-RXH7L-73GTW-2IM23
+ 
+Tool Versions:
+Toolchain:       MDK-ARM Professional  Version: 5.24.1
+Toolchain Path:  E:\Keil_v5\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.06 update 5 (build 528)
+Assembler:       Armasm.exe V5.06 update 5 (build 528)
+Linker/Locator:  ArmLink.exe V5.06 update 5 (build 528)
+Library Manager: ArmAr.exe V5.06 update 5 (build 528)
+Hex Converter:   FromElf.exe V5.06 update 5 (build 528)
+CPU DLL:         SARMCM3.DLL V5.24.1
+Dialog DLL:      DCM.DLL V1.16.0.0
+Target DLL:      STLink\ST-LINKIII-KEIL_SWO.dll V3.0.1.0
+Dialog DLL:      TCM.DLL V1.32.0.0
+ 
+<h2>Project:</h2>
+E:\Quadcopter\STM32\STM32F407 Discovery\Projects\8-BLDCMOTOR\8-BLDCMOTOR.uvprojx
+Project File Date:  07/03/2018
+
+<h2>Output:</h2>
+*** Using Compiler 'V5.06 update 5 (build 528)', folder: 'E:\Keil_v5\ARM\ARMCC\Bin'
+Rebuild target 'STM32F407VG-Discovery'
+assembling startup_stm32f407xx.s...
+compiling misc.c...
+compiling stm32f4xx_exti.c...
+compiling stm32f4xx_gpio.c...
+compiling stm32f4xx_pwr.c...
+compiling stm32f4xx_dma.c...
+compiling stm32f4xx_spi.c...
+compiling stm32f4xx_rcc.c...
+compiling stm32f4xx_syscfg.c...
+compiling system_stm32f4xx.c...
+compiling stm32f4xx_usart.c...
+compiling system.c...
+compiling target.c...
+compiling main.c...
+src\quad\target\8-BLDCMOTOR\main.c(260): warning:  #188-D: enumerated type mixed with another type
+  	mixerInit(
+ixerConfig()->mixerMode, masterConfig.customMotorMixer);
+src\quad\target\8-BLDCMOTOR\main.c(447): warning:  #177-D: variable "ledpwmval"  was declared but never referenced
+  	uint16_t ledpwmval = 1500;
+src\quad\target\8-BLDCMOTOR\main.c(448): warning:  #177-D: variable "dir"  was declared but never referenced
+  	uint8_t dir = 1;
+src\quad\target\8-BLDCMOTOR\main.c: 3 warnings, 0 errors
+compiling stm32f4xx_tim.c...
+compiling accgyro_i2c_mpu9250.c...
+compiling accgyro_mpu6050.c...
+compiling accgyro_mpu.c...
+compiling bitband_i2c_soft.c...
+compiling accgyro_spi_mpu9250.c...
+compiling bus_i2c_soft.c...
+compiling bus_spi.c...
+src\quad\drivers\bus_spi.c(15): warning:  #1296-D: extended constant initialiser used
+  	{ .dev = 
+PI1, .nss = (uint8_t)
+O_NONE, .sck = IO_TAG(SPI1_SCK_PIN), .miso = IO_TAG(SPI1_MISO_PIN), .mosi = IO_TAG(SPI1_MOSI_PIN), .rcc = RCC_APB2(SPI1), .af = GPIO_AF_SPI1, false },
+src\quad\drivers\bus_spi.c(15): warning:  #767-D: conversion from pointer to smaller integer
+  	{ .dev = 
+PI1, .nss = (uint8_t)
+O_NONE, .sck = IO_TAG(SPI1_SCK_PIN), .miso = IO_TAG(SPI1_MISO_PIN), .mosi = IO_TAG(SPI1_MOSI_PIN), .rcc = RCC_APB2(SPI1), .af = GPIO_AF_SPI1, false },
+src\quad\drivers\bus_spi.c(254): warning:  #68-D: integer conversion resulted in a change of sign
+  		return -1;
+src\quad\drivers\bus_spi.c: 3 warnings, 0 errors
+compiling button.c...
+compiling gps.c...
+compiling gyro_sync.c...
+compiling exti.c...
+compiling led.c...
+compiling io.c...
+src\quad\drivers\io.c(133): warning:  #188-D: enumerated type mixed with another type
+  		.GPIO_Mode      = (cfg >> 0) & 0x03,
+src\quad\drivers\io.c(134): warning:  #188-D: enumerated type mixed with another type
+  		.GPIO_Speed		= (cfg >> 2) & 0x03,
+src\quad\drivers\io.c(135): warning:  #188-D: enumerated type mixed with another type
+  		.GPIO_OType		= (cfg >> 4) & 0x01,
+src\quad\drivers\io.c(136): warning:  #188-D: enumerated type mixed with another type
+  		.GPIO_PuPd		= (cfg >> 5) & 0x03,
+src\quad\drivers\io.c(153): warning:  #188-D: enumerated type mixed with another type
+          .GPIO_Mode = (cfg >> 0) & 0x03,
+src\quad\drivers\io.c(154): warning:  #188-D: enumerated type mixed with another type
+          .GPIO_Speed = (cfg >> 2) & 0x03,
+src\quad\drivers\io.c(155): warning:  #188-D: enumerated type mixed with another type
+          .GPIO_OType = (cfg >> 4) & 0x01,
+src\quad\drivers\io.c(156): warning:  #188-D: enumerated type mixed with another type
+          .GPIO_PuPd = (cfg >> 5) & 0x03,
+src\quad\drivers\io.c: 8 warnings, 0 errors
+compiling mpu6050.c...
+compiling rcc.c...
+compiling mpu9250_soft_i2c.c...
+compiling mpu6050_soft_i2c.c...
+compiling rxSerial1Test.c...
+compiling rx_pwm.c...
+compiling pwm_output.c...
+src\quad\drivers\pwm_output.c(40): warning:  #177-D: function "pwmOutConfigKhz"  was declared but never referenced
+  static void pwmOutConfigKhz(pwmOutputPort_t *port, const timerHardware_t *timerHardware, uint8_t khz, uint16_t period, uint16_t value)
+src\quad\drivers\pwm_output.c: 1 warning, 0 errors
+compiling rxSerial3Test.c...
+compiling rxSerial6Test.c...
+compiling serial.c...
+compiling sound_beeper.c...
+src\quad\drivers\sound_beeper.c(7): warning:  #177-D: variable "beeperIO"  was declared but never referenced
+  static IO_t beeperIO = DEFIO_IO(NONE);
+src\quad\drivers\sound_beeper.c(8): warning:  #177-D: variable "beeperInverted"  was declared but never referenced
+  static bool beeperInverted = false;
+src\quad\drivers\sound_beeper.c: 2 warnings, 0 errors
+compiling serial_uart.c...
+src\quad\drivers\serial_uart.c(308): warning:  #111-D: statement is unreachable
+  	if (s->port.rxBufferHead >= s->port.rxBufferTail) {
+src\quad\drivers\serial_uart.c(314): warning:  #111-D: statement is unreachable
+  	return (uint32_t)-1;
+src\quad\drivers\serial_uart.c: 2 warnings, 0 errors
+compiling serial_uart_stm32f4xx.c...
+compiling timer_stm32f4xx.c...
+compiling timer.c...
+src\quad\drivers\timer.c(89): warning:  #111-D: statement is unreachable
+  		
+CASE(1);
+src\quad\drivers\timer.c(92): warning:  #111-D: statement is unreachable
+  		
+CASE(2);
+src\quad\drivers\timer.c(95): warning:  #111-D: statement is unreachable
+  		
+CASE(3);
+src\quad\drivers\timer.c(98): warning:  #111-D: statement is unreachable
+  		
+CASE(4);
+src\quad\drivers\timer.c(110): warning:  #111-D: statement is unreachable
+  		
+CASE(8);
+src\quad\drivers\timer.c(116): warning:  #111-D: statement is unreachable
+  		
+CASE(10);
+src\quad\drivers\timer.c: 6 warnings, 0 errors
+compiling runtime_config.c...
+compiling fc_tasks.c...
+compiling timerLedsTesting.c...
+compiling timerUserBtnInputTesting.c...
+compiling rc_controls.c...
+src\quad\fc\rc_controls.c(4): warning:  #550-D: variable "motorConfig"  was set but never used
+  static motorConfig_t *motorConfig;
+src\quad\fc\rc_controls.c(5): warning:  #550-D: variable "pidProfile"  was set but never used
+  static pidProfile_t *pidProfile;
+src\quad\fc\rc_controls.c(10): warning:  #550-D: variable "isUsingSticksToArm"  was set but never used
+  static bool isUsingSticksToArm = true;
+src\quad\fc\rc_controls.c: 3 warnings, 0 errors
+compiling fc_core.c...
+compiling config.c...
+src\quad\fc\config.c(500): warning:  #177-D: variable "samplingTime"  was declared but never referenced
+  	float samplingTime = 0.000125f;			// 1 / 8000 (gyro sampling frequency 8K) = 0.000125 
+src\quad\fc\config.c: 1 warning, 0 errors
+compiling beeper.c...
+compiling fc_rc.c...
+src\quad\fc\fc_rc.c(9): warning:  #177-D: variable "setpointRate"  was declared but never referenced
+  static float setpointRate[3], rcDeflection[3], rcDeflectionAbs[3];
+src\quad\fc\fc_rc.c(9): warning:  #177-D: variable "rcDeflection"  was declared but never referenced
+  static float setpointRate[3], rcDeflection[3], rcDeflectionAbs[3];
+src\quad\fc\fc_rc.c(9): warning:  #177-D: variable "rcDeflectionAbs"  was declared but never referenced
+  static float setpointRate[3], rcDeflection[3], rcDeflectionAbs[3];
+src\quad\fc\fc_rc.c: 3 warnings, 0 errors
+compiling filter.c...
+compiling maths.c...
+compiling mixer.c...
+src\quad\flight\mixer.c(142): warning:  #177-D: variable "throttlePrevious"  was declared but never referenced
+  	static uint16_t throttlePrevious = 0;			// store the last throttle direction for deadband transitions
+src\quad\flight\mixer.c(15): warning:  #550-D: variable "customMixers"  was set but never used
+  static motorMixer_t *customMixers;
+src\quad\flight\mixer.c(18): warning:  #550-D: variable "mixerConfig"  was set but never used
+  static mixerConfig_t *mixerConfig;
+src\quad\flight\mixer.c(26): warning:  #550-D: variable "currentMixer"  was set but never used
+  static motorMixer_t currentMixer[MAX_SUPPORTED_MOTORS];
+src\quad\flight\mixer.c: 4 warnings, 0 errors
+compiling config_eeprom.c...
+compiling acceleration.c...
+src\quad\sensors\acceleration.c(89): warning:  #188-D: enumerated type mixed with another type
+  	if (!accDetect(&acc.dev, accelerometerConfig->acc_hardware)) {
+src\quad\sensors\acceleration.c: 1 warning, 0 errors
+compiling feature.c...
+compiling debug.c...
+compiling initialisation.c...
+compiling gyro.c...
+compiling pwm.c...
+compiling sbus.c...
+src\quad\rx\sbus.c(357): warning:  #188-D: enumerated type mixed with another type
+  									SBUS_PORT_OPTIONS | (rxConfig->sbus_inversion ? SERIAL_INVERTED : 0) | (rxConfig->halfDuplex ? SERIAL_BIDIR : 0)
+src\quad\rx\sbus.c(211): warning:  #177-D: function "printSBUSDataInBin"  was declared but never referenced
+  static void printSBUSDataInBin(uint16_t c)
+src\quad\rx\sbus.c: 2 warnings, 0 errors
+compiling rx.c...
+src\quad\rx\rx.c(30): warning:  #550-D: variable "rxFlightChannelsValid"  was set but never used
+  static bool rxFlightChannelsValid = false;
+src\quad\rx\rx.c: 1 warning, 0 errors
+linking...
+Program Size: Code=13136 RO-data=900 RW-data=3712 ZI-data=4432  
+".\Objects\8-BLDCMOTOR.axf" - 0 Error(s), 40 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: Keil
+                http://www.keil.com/pack/Keil.STM32F4xx_DFP.2.13.0.pack
+                Keil.STM32F4xx_DFP.2.13.0
+                STMicroelectronics STM32F4 Series Device Support, Drivers and Examples
+
+<h2>Collection of Component include folders:</h2>
+  .\RTE\_STM32F407VG-Discovery
+  E:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.13.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include
+
+<h2>Collection of Component Files used:</h2>
+Build Time Elapsed:  00:00:09
+</pre>
+</body>
+</html>

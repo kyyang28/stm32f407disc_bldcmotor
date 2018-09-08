@@ -1,0 +1,20 @@
+1. S.Bus protocol is INVERTED on a hardware level. That mean, Arduino can not talk directly with other S.Bus devices without additional inverter. Like this one
+
+2. When talking to most modern flight controllers, inverter might not be required and long as flight controller can disable onboard inverters. F1 and F4 do not have build in inverters at all, so any UART can be used directly and in case of F3 and F7, INAV/Betaflight can disable inversion in software
+
+3. Futaba S.Bus in "FASSTest 18CH" protocols encodes 16 RC channels and 2 digital channels (ON/OFF)
+
+4. S.Bus encodes each RC channel with 11 bits
+
+5. Internally, channel values are mapped as:
+	-100% = 173 (equivalent of 1000 in PWM servo signal)
+	0% = 992 (equivalent of 1500 in PWM servo signal)
+	100% = 1811 (equivalent of 2000 in PMW servo signal)
+
+6. Serial port has to be configured as 100000bps, SERIAL_8E2 (8 bits, even, 2 stop bits)
+
+7. Failsafe state is transfered via single is flags byte
+
+8. One S.Bus packet takes 25 bytes
+
+9. One frame is transmitted every 15ms (FASSTest 18CH mode)
